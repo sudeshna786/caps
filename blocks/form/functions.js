@@ -67,6 +67,7 @@ function validatePAN(pan) {
     pan = pan.trim().toUpperCase();
 
     if (pan.length !== 10)
+      console.log("nknkjg");
         return "PAN must be exactly 10 characters";
 
     if (!/^[A-Z]{5}[0-9]{4}[A-Z]$/.test(pan))
