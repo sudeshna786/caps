@@ -58,5 +58,19 @@ function maskMobileNumber(mobileNumber) {
 
 // eslint-disable-next-line import/prefer-default-export
 export {
-  getFullName, days, submitFormArrayToString, maskMobileNumber,
+  getFullName, days, submitFormArrayToString, maskMobileNumber, validatePAN
 };
+
+function validatePAN(pan) {
+    if (!pan) return "PAN cannot be empty";
+
+    pan = pan.trim().toUpperCase();
+
+    if (pan.length !== 10)
+        return "PAN must be exactly 10 characters";
+
+    if (!/^[A-Z]{5}[0-9]{4}[A-Z]$/.test(pan))
+        return "PAN format invalid. Use AAAAA9999A";
+
+    return "VALID";
+}
