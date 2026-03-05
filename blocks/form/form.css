@@ -808,13 +808,599 @@ main .form form select[multiple] {
 
 
 /**************************************************************/
-/* ---------------------------------------------------------
-   SIMPLE, CLEAN Thank‑You Fragment Styles (Desktop Only)
-   --------------------------------------------------------- */
+/* login-page*/
+.field-offer-check {
+    background: #ffffff;
+    padding: 24px 28px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
 
-/* -----------------------------------------
-   1) KYC Yellow Banner
-   ----------------------------------------- */
+.field-plain-text1771773726717 p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+
+.field-mobile-number,
+.field-dob-pan,
+.field-source-of-income {
+    padding: 0 10px;
+}
+
+.text-wrapper input,
+.date-wrapper input {
+    height: 48px;
+    border-radius: 10px;
+    border: 1px solid #dcdfe4;
+    padding: 0 14px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.text-wrapper input:focus,
+.date-wrapper input:focus {
+    border-color: #0057ff;
+    box-shadow: 0 0 0 2px rgba(0, 87, 255, 0.1);
+}
+
+.field-isd input {
+    background: #f3f5f8;
+    border-right: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+.field-mobnumber input {
+    border-left: none;
+}
+
+.field-panordob {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.field-panordob .radio-wrapper label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+}
+
+.field-radio-group1771777072700 .radio-wrapper {
+    margin-bottom: 8px;
+}
+
+.field-radio-group1771777072700 label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+.field-salaried-text {
+    background: #fff4e5;
+    border: 1px solid #ffd8a8;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #9a5b00;
+}
+
+.field-business-text {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 10px;
+    padding: 12px 14px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #991b1b;
+}
+
+.field-consents {
+    margin-top: 16px;
+}
+
+.field-consents label {
+    font-size: 13px;
+    color: #444;
+    line-height: 1.5;
+}
+
+.field-terms-conditions p {
+    font-size: 13px;
+    color: #555;
+    margin-top: 14px;
+}
+
+.field-terms-conditions a {
+    color: #0057ff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.field-form-button1771777504532 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.field-form-button1771777504532 button {
+    background: #dbe6ff;
+    color: #4c6ef5;
+    border: none;
+    height: 48px;
+    padding: 0 28px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: not-allowed;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+}
+
+.field-form-button1771777504532 button:enabled {
+    background: linear-gradient(135deg, #0057ff, #2f7bff);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(0, 87, 255, 0.25);
+}
+
+.field-form-button1771777504532 button:enabled:hover {
+    transform: translateY(-1px);
+}
+
+.panel-wrapper.col-4 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* OTP */
+
+#panelcontainer-19f73c548c {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+
+#panelcontainer-19f73c548c legend {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #0b1f44;
+}
+
+#text-655a85ea7e {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+#text-655a85ea7e a {
+  color: #1a4fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#textinput-5f8caa59e0 {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  padding: 0 16px;
+  font-size: 20px;
+  letter-spacing: 8px;
+  text-align: center;
+  background-color: #f9fafc;
+  transition: all 0.3s ease;
+}
+
+#textinput-5f8caa59e0:focus {
+  border-color: #1a4fff;
+  outline: none;
+  background-color: #ffffff;
+}
+
+#togglePassword {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+  cursor: pointer;
+  color: #777;
+}
+
+#text-df0e49c3e8 {
+  font-size: 14px;
+  color: #444;
+  margin-top: 15px;
+}
+
+#text-df0e49c3e8 strong {
+  color: #000;
+}
+
+#text-af45dd2a48 {
+  text-align: right;
+  font-size: 14px;
+  color: #666;
+  margin-top: 15px;
+}
+
+#button-b62aa69f4e {
+    margin-top: 20px auto;
+    text-align: left;
+}
+
+#button-b62aa69f4e {
+    margin: 20px auto;
+    background: #dbe6ff;
+    color: #4c6ef5;
+    border: none;
+    height: 48px;
+    padding: 0 28px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: not-allowed;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+}
+#button-b62aa69f4e:enabled {
+    background: linear-gradient(135deg, #0057ff, #2f7bff);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(0, 87, 255, 0.25);
+}
+
+#button-b62aa69f4e:enabled:hover {
+    transform: translateY(-1px);
+}
+
+/* Offer Screen */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f5f6f7;
+    margin:0;
+}
+
+.panel-wrapper{
+    border:none;
+}
+
+.field-loanoffer-container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.field-banner{
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.field-banner-card{
+    background:#d8e8ec;
+    border-radius:14px;
+    padding:20px 25px;
+    margin-bottom:30px;
+}
+
+.field-loan-offer-text{
+    font-size:18px;
+    font-weight:500;
+    color:#333;
+}
+
+.field-left-inputs{
+    padding-right:30px;
+}
+
+.field-left-inputs .plain-text-wrapper:first-child{
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+.field-left-inputs .plain-text-wrapper strong{
+    font-size:16px;
+}
+
+.field-left-inputs input[type="number"]{
+    border:1px solid #dcdcdc;
+    border-radius:8px;
+    height:40px;
+    padding:0 10px;
+    font-size:16px;
+}
+
+.range-widget-wrapper{
+    margin-top:10px;
+    margin-bottom:30px;
+}
+
+.range-widget-wrapper input[type="range"]{
+    width:100%;
+    accent-color:#f7941d;
+}
+
+.range-min,
+.range-max{
+    font-size:12px;
+    color:#666;
+}
+
+.range-bubble{
+    background:#ffffff;
+    border-radius:6px;
+    padding:4px 8px;
+    font-size:12px;
+    border:1px solid #ddd;
+}
+
+.field-right-summary{
+    background:#e7decc;
+    border-radius:12px;
+    padding:25px;
+}
+
+.field-right-summary .plain-text-wrapper:first-child{
+    font-size:16px;
+    color:#333;
+}
+
+.field-loan-amount-right input{
+    border:none;
+    background:transparent;
+    font-size:38px;
+    font-weight:700;
+    margin-top:5px;
+}
+
+.field-loan-amount-right{
+    border-bottom:2px dotted #b7a98d;
+    padding-bottom:15px;
+    margin-bottom:15px;
+}
+
+.field-emi-amount,
+.field-roi,
+.field-taxes{
+    width:50%;
+    float:left;
+    margin-top:10px;
+}
+
+.field-taxes{
+    width:100%;
+}
+
+.field-right-summary label{
+    font-size:13px;
+    color:#666;
+}
+
+.field-right-summary input{
+    border:none;
+    background:transparent;
+    font-size:18px;
+    font-weight:600;
+    margin-top:3px;
+}
+
+.field-emi-amount,
+.field-roi,
+.field-taxes{
+    border-left:3px solid #f7941d;
+    padding-left:10px;
+}
+
+.field-right-summary .plain-text-wrapper:last-child{
+    background:#f7941d;
+    color:white;
+    padding:15px;
+    margin-top:25px;
+    border-radius:0 0 12px 12px;
+    font-size:13px;
+    clear:both;
+}
+
+.field-proceed {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.field-proceed button {
+    background: #dbe6ff;
+    color: #4c6ef5;
+    border: none;
+    height: 48px;
+    padding: 0 28px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: not-allowed;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
+}
+
+.field-proceed button:enabled {
+    background: linear-gradient(135deg, #0057ff, #2f7bff);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(0, 87, 255, 0.25);
+}
+
+.field-proceed button:enabled:hover {
+    transform: translateY(-1px);
+}
+
+/* Remove textbox appearance */
+.field-right-summary input{
+    border:none !important;
+    background:transparent !important;
+    box-shadow:none !important;
+    outline:none !important;
+    padding:0 !important;
+    pointer-events:none;
+    font-size:18px;
+    font-weight:600;
+    color:#2d3e50;
+}
+
+.field-loan-amount-right input{
+    font-size:40px;
+    font-weight:700;
+}
+
+.field-right-summary .number-wrapper input{
+    width:auto;
+}
+
+.field-right-summary label{
+    font-size:14px;
+    color:#556575;
+    margin-bottom:5px;
+    display:block;
+}
+
+/* Preview Screen */
+#fragment-4e5625e768{
+    background:#f5f7fb;
+    padding:30px;
+    font-family: Arial, sans-serif;
+}
+
+.field-plain-text1772010876641 strong{
+    font-size:22px;
+}
+
+.field-plain-text1772010876641 p{
+    margin:0;
+    color:#6b7280;
+}
+
+.accordion .panel-wrapper{
+    background:#fff;
+    border-radius:14px;
+    margin-top:20px;
+    border:1px solid #e5e7eb;
+    padding:20px;
+}
+
+.accordion-legend{
+    font-weight:600;
+    font-size:16px;
+    padding:14px 18px;
+    background:#e8eefc;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.field-loan-details,
+.field-personal-details{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.field-current-address,
+.field-residence-type{
+    grid-column: span 4;
+}
+
+.field-wrapper label{
+    font-size:13px;
+    color:#6b7280;
+}
+
+.field-wrapper input{
+    border:none;
+    background:transparent;
+    font-size:15px;
+    font-weight:600;
+    padding-left:12px;
+}
+
+.field-personal-details-accordion .text-wrapper,
+.field-loan-accordion .text-wrapper{
+    border-left:3px solid #4f7cff;
+    padding-left:10px;
+}
+
+.field-schedule{
+    border-left:3px solid #4f7cff;
+    padding-left:10px;
+}
+
+.field-schedule a{
+    color:#2563eb;
+    font-weight:600;
+    text-decoration:none;
+}
+
+#button-aebce7338c,#button-dd4a356dda{
+        background: #dbe6ff;
+        color: #4c6ef5;
+        border: none;
+        height: 48px;
+        padding: 0 28px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: not-allowed;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: 0.2s;
+        background: linear-gradient(135deg, #0057ff, #2f7bff);
+        color: #fff;
+        cursor: pointer;
+        box-shadow: 0 8px 18px rgba(0, 87, 255, 0.25);
+}
+
+.field-back,
+.field-confirm{
+    margin-top:25px;
+}
+
+.field-back{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.field-confirm{
+    display:flex;
+    justify-content:flex-end;
+}
+
+/* Button hover */
+#button-aebce7338c,#button-dd4a356dda:hover{
+    transform: translateY(-1px);
+}
+
+.field-emi-amount label{
+    white-space: nowrap;
+    display: block;
+    font-size: 13px;
+}
+
+/* Thank you Screen */
+
 #text-9c09a83889 {
   background: #FFF7DD;
   border: 1px solid #F5D99B;
@@ -826,9 +1412,6 @@ main .form form select[multiple] {
 }
 #text-9c09a83889 p { margin: 0; padding: 0; }
 
-/* -----------------------------------------
-   2) Loan Application Number Section
-   ----------------------------------------- */
 #text-93c31f9376,
 .text-wrapper.field-loan-application-number {
   display: inline-flex;
@@ -851,9 +1434,6 @@ main .form form select[multiple] {
   margin: 0;
 }
 
-/* -----------------------------------------
-   3) Grey Note "We may call or email you"
-   ----------------------------------------- */
 #text-6cf259210f {
   color: #667085;
   font-size: 14px;
@@ -866,18 +1446,12 @@ main .form form select[multiple] {
   margin-top: 10px;
 }
 
-/* -----------------------------------------
-   4) Section Heading
-   ----------------------------------------- */
 #text-8b917351ff strong {
   font-size: 18px;
   font-weight: 700;
   color: #111827;
 }
 
-/* -----------------------------------------
-   5) Loan Amount – Label + Value
-   ----------------------------------------- */
 #text-d44c62254b {
   display: inline-flex;
   align-items: center;
@@ -907,9 +1481,6 @@ main .form form select[multiple] {
   margin-left: 4px;
 }
 
-/* -----------------------------------------
-   6) Thank‑You Info Pill (blue soft box)
-   ----------------------------------------- */
 #text-ef49b8ac08 {
   background: #E7F0FF;
   color: #185ADB;
@@ -921,11 +1492,6 @@ main .form form select[multiple] {
   margin: 0;
 }
 
-/* -----------------------------------------
-   7) "For Easy Loan Management" Card
-   ----------------------------------------- */
-
-/* Header (blue soft background) */
 #text-5e2a97e2cc {
   background: #EEF3FF;
   padding: 16px 20px 16px 52px;
@@ -948,8 +1514,6 @@ main .form form select[multiple] {
   font-weight: 700;
   color: #111827;
 }
-
-/* Body (white row with link + arrow) */
 #text-a09282e45c {
   background: #fff;
   padding: 16px 40px 16px 20px;
@@ -976,9 +1540,6 @@ main .form form select[multiple] {
   color: #185ADB;
 }
 
-/* -----------------------------------------
-   8) “For more services, visit HDFC Bank Website.”
-   ----------------------------------------- */
 #text-d8160017a1 {
   color: #6B7280;
   font-size: 14px;
@@ -994,88 +1555,61 @@ main .form form select[multiple] {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-/* ===== Loan Application Number — keep label and value tight on one line ===== */
-
-/* Put the label block (#text-93c31f9376) and value block (.field-loan-application-number)
-   on the SAME row and remove grid widths that cause gaps. */
 #text-93c31f9376,
 .text-wrapper.field-loan-application-number[data-id="textinput-fb1be3f5b2"] {
-  display: inline-flex !important;     /* sit side-by-side */
-  align-items: baseline;               /* align text baselines */
+  display: inline-flex !important;
+  align-items: baseline;
   vertical-align: middle;
-  width: auto !important;              /* override col-12 / col-5 widths */
-  margin: 0 !important;                /* remove outer gaps added by layout */
+  width: auto !important;
+  margin: 0 !important;
   padding: 0 !important;
 }
-/* Remove default paragraph spacing inside the label block (handles <p><p> nesting) */
+
 #text-93c31f9376 p,
 #text-93c31f9376 p > p {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-
-
-/* ============================================
-   Loan Amount — continuous blue bar for label + value
-   HTML (unchanged):
-     #text-d44c62254b                      -> label "Loan Amount"
-     .text-wrapper.field-loan-amount[...]  -> value container with input#textinput-e250dc6a5d
-   ============================================ */
-
-/* 1) Tightly stack the label block and the value block */
 #text-d44c62254b,
 .text-wrapper.field-loan-amount[data-id="textinput-e250dc6a5d"] {
-  display: block;                 /* stack vertically */
-  margin: 0 !important;           /* kill external margins that create gaps */
-  padding-left: 12px;             /* space for the blue bar */
-  position: relative;             /* anchor the ::before bar */
-  width: auto;                    /* ignore grid widths visually */
+  display: block;
+  margin: 0 !important;
+  padding-left: 12px;
+  position: relative;
+  width: auto;
   box-sizing: border-box;
 }
 
-/* Small controlled gap between label and value so the bar appears continuous */
+
 #text-d44c62254b { margin-bottom: 2px !important; }
 .text-wrapper.field-loan-amount[data-id="textinput-e250dc6a5d"] { margin-top: 0 !important; }
 
-/* 2) The blue accent bar — draw it on BOTH blocks so it looks continuous */
+
 #text-d44c62254b::before,
 .text-wrapper.field-loan-amount[data-id="textinput-e250dc6a5d"]::before {
   content: "";
   position: absolute;
   left: 0; top: 0;
-  width: 4px;                     /* thickness of the accent */
+  width: 4px;
   height: 100%;
-  background: #4F7EF9;            /* blue */
-  border-radius: 2px;             /* soften the edges */
+  background: #4F7EF9;
+  border-radius: 2px;
 }
 
-/* Label text (handle nested <p><p><strong>…</strong>) */
 #text-d44c62254b p,
 #text-d44c62254b p > p { margin: 0; padding: 0; }
 #text-d44c62254b strong {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.2;
-  color: #8A94A6;                 /* muted label */
+  color: #8A94A6;
 }
 
-/* Hide the auto-generated <label> so it doesn't inject space */
 .text-wrapper.field-loan-amount[data-id="textinput-e250dc6a5d"] > label.field-label {
   display: none !important;
 }
 
-/* 3) Render the readonly input as the bold value (no borders/box) */
 #textinput-e250dc6a5d {
   border: none !important;
   background: transparent !important;
@@ -1085,743 +1619,19 @@ main .form form select[multiple] {
   padding: 0 !important;
   margin: 0 !important;
 
-  width: auto !important;         /* shrink to content */
+  width: auto !important;
   min-width: 0 !important;
 
-  font-size: 22px;                /* adjust to match your design; try 22–24px */
+  font-size: 22px;
   font-weight: 800;
-  line-height: 1.25;              /* gives the bar enough height on the value row */
-  color: #111827;                 /* near-black */
-  pointer-events: none;           /* behave like plain text */
+  line-height: 1.25;
+  color: #111827;
+  pointer-events: none;
 }
 
-/* Optional: ensure the currency formatting looks tighter */
-#textinput-e250dc6a5d { letter-spacing: 0; }
-
-/* If any parent forces extra spacing, this keeps label+value visually glued */
 #text-d44c62254b,
 .text-wrapper.field-loan-amount[data-id="textinput-e250dc6a5d"] {
   background-clip: padding-box;   /* keeps the blue bar crisp at the edge */
 }
 
 
-
-
-
-/* ================================
-   Header strip (navy bar with logos)
-   Elements (unchanged HTML):
-   - fieldset#panelcontainer-39090b6db6  (container)
-   - #image-806badaa3f (HDFC logo block, left)
-   - #image-e9f3d2c907 (Safe & Secure pill, right)
-   ================================ */
-
-/* Remove default fieldset look and build the navy bar */
-#panelcontainer-39090b6db6 {
-  border: none;
-  padding: 0;
-  margin: 0 40px 0 40px;                /* left/right spacing like screenshot */
-  background: #0b1b3a;                  /* deep navy */
-  border-radius: 0;                      /* square ends (adjust if needed) */
-  min-height: 64px;                      /* bar height */
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
-}
-
-/* Hide the auto legend spacing completely */
-#panelcontainer-39090b6db6 > legend.field-label {
-  display: none !important;
-}
-
-/* Make inner columns behave cleanly on one row */
-#panelcontainer-39090b6db6 > .image-wrapper {
-  display: flex;
-  align-items: center;
-  padding: 0 20px;                       /* inner left/right breathing space */
-  box-sizing: border-box;
-}
-
-/* Left: HDFC logo */
-#image-806badaa3f {
-  justify-content: flex-start;
-}
-#image-806badaa3f picture,
-#image-806badaa3f img {
-  display: block;
-  height: 28px;                          /* logo height to match screenshot */
-  width: auto;
-  object-fit: contain;
-  /* Optional: subtle white stroke look if needed */
-  /* filter: drop-shadow(0 0 0 #ffffff); */
-}
-
-/* Right: green "100% safe" pill */
-#image-e9f3d2c907 {
-  margin-left: auto;                      /* push to far right */
-  justify-content: flex-end;
-}
-#image-e9f3d2c907 picture,
-#image-e9f3d2c907 img {
-  display: block;
-  height: 28px;                           /* pill height to match screenshot */
-  width: auto;
-  object-fit: contain;
-}
-
-/* Optional: keep the strip visually centered if the page is very wide */
-#panelcontainer-39090b6db6 {
-  max-width: 1100px;                      /* match your content width */
-  margin-left: auto;
-  margin-right: auto;
-  /* If you prefer full-bleed inside a white card, comment the three lines above
-     and keep only margin: 0 40px; at the top of this rule */
-}
-
-/* ============================================
-   Footer strip: "© Copyright HDFC Bank Ltd."
-   Element: #text-e29b0fe5ee (unchanged HTML)
-   ============================================ */
-
-#text-e29b0fe5ee {
-  background: #0b1b3a;           /* deep navy */
-  color: #cbd5e1;                /* light grey text */
-  text-align: center;
-  padding: 10px 16px;            /* height similar to screenshot */
-  border-top: 1px solid #dbe3f0; /* thin light line on top */
-  width: 100%;
-  box-sizing: border-box;
-  margin: 0;                     /* remove any external gaps */
-}
-
-/* Clean up nested <p><p>…</p></p> spacing */
-#text-e29b0fe5ee p,
-#text-e29b0fe5ee p > p {
-  margin: 0;
-  padding: 0;
-  color: inherit;
-  font-size: 13px;               /* compact footer size */
-  line-height: 1.4;
-  letter-spacing: 0.1px;
-}
-
-/* Optional: keep the footer from sticking to adjacent sections */
-#text-e29b0fe5ee {
-  /* margin-top: 8px; */          /* uncomment if you need a little gap above */
-}
-
-
-/* ===== Page Background ===== */
-body {
-  background-color: #f5f6f8;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* ===== OTP Panel Container ===== */
-#panelcontainer-19f73c548c {
-  max-width: 600px;
-  margin: 60px auto;
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-}
-
-/* ===== Heading ===== */
-#panelcontainer-19f73c548c legend {
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #0b1f44;
-}
-
-/* ===== OTP Info Text ===== */
-#text-655a85ea7e {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-#text-655a85ea7e a {
-  color: #1a4fff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-/* ===== OTP Input Field ===== */
-#textinput-5f8caa59e0 {
-  width: 100%;       /* full width of container */
-  max-width: 100%;   /* prevent any max-width constraints */
-  box-sizing: border-box; /* include padding/border in width */
-  height: 56px;      /* keep height consistent */
-  border-radius: 8px;
-  border: 1px solid #dcdcdc;
-  padding: 0 16px;
-  font-size: 20px;
-  letter-spacing: 8px;
-  text-align: center;
-  background-color: #f9fafc;
-  transition: all 0.3s ease;
-}
-
-#textinput-5f8caa59e0:focus {
-  border-color: #1a4fff;
-  outline: none;
-  background-color: #ffffff;
-}
-
-/* ===== Eye Icon Position ===== */
-#togglePassword {
-  position: absolute;
-  right: 20px;
-  top: 18px;
-  cursor: pointer;
-  color: #777;
-}
-
-/* ===== Resend OTP Section ===== */
-#text-df0e49c3e8 {
-  font-size: 14px;
-  color: #444;
-  margin-top: 15px;
-}
-
-#text-df0e49c3e8 strong {
-  color: #000;
-}
-
-/* ===== Attempts Text ===== */
-#text-af45dd2a48 {
-  text-align: right;
-  font-size: 14px;
-  color: #666;
-  margin-top: 15px;
-}
-
-/* ===== Submit Button ===== */
-#button-b62aa69f4e {
-  width: 100%;
-  height: 52px;
-  background: #8fa8e8;
-  border: none;
-  border-radius: 8px;
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  margin-top: 30px;
-  transition: background 0.3s ease;
-}
-
-#button-b62aa69f4e:hover {
-  background: #6c8de3;
-  cursor: pointer;
-}
-
-#button-b62aa69f4e:disabled {
-  background: #cfd8f5;
-  cursor: not-allowed;
-}
-
-
-
-
-/* ===== Main Container ===== */
-.field-offer-check {
-    background: #ffffff;
-    padding: 24px 28px;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-    font-family: "Inter", "Segoe UI", Arial, sans-serif;
-}
-
-/* ===== Heading ===== */
-.field-plain-text1771773726717 p {
-    font-size: 22px;
-    font-weight: 600;
-    color: #1c1c1c;
-    margin-bottom: 20px;
-}
-
-/* ===== Input Groups ===== */
-.field-mobile-number,
-.field-dob-pan,
-.field-source-of-income {
-    padding: 0 10px;
-}
-
-/* ===== Inputs ===== */
-.text-wrapper input,
-.date-wrapper input {
-    height: 48px;
-    border-radius: 10px;
-    border: 1px solid #dcdfe4;
-    padding: 0 14px;
-    font-size: 15px;
-    outline: none;
-    transition: 0.2s;
-}
-
-.text-wrapper input:focus,
-.date-wrapper input:focus {
-    border-color: #0057ff;
-    box-shadow: 0 0 0 2px rgba(0, 87, 255, 0.1);
-}
-
-/* ISD */
-.field-isd input {
-    background: #f3f5f8;
-    border-right: none;
-    text-align: center;
-    font-weight: 500;
-}
-
-/* Mobile */
-.field-mobnumber input {
-    border-left: none;
-}
-
-/* ===== Radio Buttons (PAN / DOB) ===== */
-.field-panordob {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 10px;
-}
-
-.field-panordob .radio-wrapper label {
-    font-size: 14px;
-    font-weight: 500;
-    color: #333;
-    cursor: pointer;
-}
-
-/* ===== Source of Income Radios ===== */
-.field-radio-group1771777072700 .radio-wrapper {
-    margin-bottom: 8px;
-}
-
-.field-radio-group1771777072700 label {
-    font-size: 14px;
-    font-weight: 500;
-    color: #333;
-}
-
-/* ===== Info Boxes ===== */
-.field-salaried-text {
-    background: #fff4e5;
-    border: 1px solid #ffd8a8;
-    border-radius: 10px;
-    padding: 12px 14px;
-    margin-top: 10px;
-    font-size: 13px;
-    color: #9a5b00;
-}
-
-.field-business-text {
-    background: #fef2f2;
-    border: 1px solid #fecaca;
-    border-radius: 10px;
-    padding: 12px 14px;
-    margin-top: 10px;
-    font-size: 13px;
-    color: #991b1b;
-}
-
-/* ===== Consents ===== */
-.field-consents {
-    margin-top: 16px;
-}
-
-.field-consents label {
-    font-size: 13px;
-    color: #444;
-    line-height: 1.5;
-}
-
-/* ===== Terms ===== */
-.field-terms-conditions p {
-    font-size: 13px;
-    color: #555;
-    margin-top: 14px;
-}
-
-.field-terms-conditions a {
-    color: #0057ff;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-/* ===== Button ===== */
-.field-form-button1771777504532 {
-    margin-top: 20px;
-    text-align: left;
-}
-
-.field-form-button1771777504532 button {
-    background: #dbe6ff;
-    color: #4c6ef5;
-    border: none;
-    height: 48px;
-    padding: 0 28px;
-    border-radius: 10px;
-    font-size: 15px;
-    font-weight: 600;
-    cursor: not-allowed;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    transition: 0.2s;
-}
-
-/* Enabled State */
-.field-form-button1771777504532 button:enabled {
-    background: linear-gradient(135deg, #0057ff, #2f7bff);
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0 8px 18px rgba(0, 87, 255, 0.25);
-}
-
-.field-form-button1771777504532 button:enabled:hover {
-    transform: translateY(-1px);
-}
-
-/* ===== Layout Fix ===== */
-.panel-wrapper.col-4 {
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* ===== Responsive ===== */
-@media (max-width: 992px) {
-    .panel-wrapper.col-4 {
-        width: 100%;
-    }
-}
-
-
-/* Main white container spacing */
-.field-offer-check {
-    padding: 28px 32px;   /* top-bottom | left-right */
-    box-sizing: border-box;
-}
-
-/* ========== MAIN CONTAINER ========== */
-.field-loanoffer-container{
-    padding: 32px 36px;
-    background:#fff;
-    box-sizing:border-box;
-}
-
-/* ========== HEADER TEXT ========== */
-.field-text-offer{
-    margin-bottom: 16px;
-}
-
-.field-banner p{
-    font-size:18px;
-    font-weight:600;
-}
-
-/* ========== TOP BANNER CARD ========== */
-.field-banner-card{
-    background:#EFFFFF;
-    border-radius:16px;
-    padding:18px 24px;
-    margin: 12px 0 28px 0;
-}
-
-.field-banner-card p{
-    font-size:16px;
-    font-weight:600;
-}
-
-/* ========== LAYOUT GRID ========== */
-.field-left-inputs{
-    padding-right:24px;
-}
-
-.field-right-summary{
-    background:#FFF6E6;
-    border-radius:18px;
-    padding:24px;
-}
-
-/* ========== SECTION TITLES ========== */
-.field-left-inputs strong{
-    font-size:18px;
-}
-
-/* ========== RANGE SLIDER BLOCKS ========== */
-.range-widget-wrapper{
-    margin:16px 0 28px 0;
-}
-
-/* Slider base */
-.range-widget-wrapper input[type="range"]{
-    width:100%;
-    -webkit-appearance:none;
-    height:4px;
-    background:#FFA94D;
-    border-radius:4px;
-    outline:none;
-}
-
-/* Slider thumb */
-.range-widget-wrapper input[type="range"]::-webkit-slider-thumb{
-    -webkit-appearance:none;
-    width:18px;
-    height:18px;
-    background:#1E40D0;
-    border-radius:50%;
-    cursor:pointer;
-}
-
-/* Bubble value */
-.range-bubble{
-    background:#fff;
-    border:1px solid #ddd;
-    border-radius:10px;
-    padding:4px 10px;
-    font-size:13px;
-    font-weight:600;
-}
-
-/* min/max labels */
-.range-min,
-.range-max{
-    font-size:12px;
-    color:#777;
-}
-
-/* ========== LEFT INPUT BOXES ========== */
-.field-loan-amount-left input,
-.field-loan-tenure-left input{
-    border:1px solid #ddd;
-    border-radius:8px;
-    padding:10px;
-    font-weight:600;
-}
-
-/* ========== RIGHT SUMMARY CARD ========== */
-.field-right-summary strong{
-    font-size:16px;
-}
-
-.field-loan-amount-right input{
-    font-size:28px;
-    font-weight:700;
-    border:none;
-    background:transparent;
-}
-
-/* EMI / ROI / TAXES */
-.field-emi-amount,
-.field-roi,
-.field-taxes{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:8px 0;
-}
-
-.field-emi-amount input,
-.field-roi input,
-.field-taxes input{
-    border:none;
-    background:transparent;
-    font-weight:600;
-}
-
-/* Divider line */
-.field-right-summary .number-wrapper{
-    border-bottom:1px dashed #E0D6C5;
-}
-
-/* ========== DISCLAIMER BOX ========== */
-.field-plain-text-18877976481772479579015{
-    background:#FFA94D;
-    color:#fff;
-    padding:14px 16px;
-    border-radius:0 0 16px 16px;
-    margin-top:16px;
-    font-size:13px;
-}
-
-/* ========== PROCEED BUTTON ========== */
-.field-proceed{
-    margin-top:32px;
-}
-
-.field-proceed button{
-    background:#1E40D0;
-    color:#fff;
-    border:none;
-    padding:14px 42px;
-    border-radius:10px;
-    font-size:16px;
-    font-weight:600;
-    cursor:pointer;
-}
-
-/* Disabled look */
-.field-proceed button:disabled{
-    background:#C7D2FE;
-    cursor:not-allowed;
-}
-
-/* ========== RESPONSIVE ========== */
-@media (max-width: 992px){
-    .field-left-inputs{
-        padding-right:0;
-        margin-bottom:24px;
-    }
-
-    .field-right-summary{
-        margin-top:24px;
-    }
-}
-
-
-
-/* ========== PAGE HEADER ========== */
-.field-plain-text1772010876641{
-    margin-bottom: 24px;
-}
-
-.field-plain-text1772010876641 strong{
-    font-size:22px;
-}
-
-.field-plain-text1772010876641 p{
-    color:#666;
-}
-
-/* ========== ACCORDION CONTAINER ========== */
-.accordion{
-    background:#F8FBFF;
-    border-radius:16px;
-    padding:0;
-    margin-bottom:24px;
-    border:1px solid #E6EEFF;
-}
-
-/* ========== ACCORDION HEADER ========== */
-.accordion-legend{
-    background:#ECF2FF;
-    padding:16px 20px;
-    border-radius:16px 16px 0 0;
-    font-weight:600;
-    font-size:16px;
-    color:#1E40D0;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    cursor:pointer;
-}
-
-/* Arrow icon simulation */
-.accordion-legend::after{
-    content:"⌃";
-    font-size:18px;
-    transform: rotate(180deg);
-}
-
-/* ========== ACCORDION CONTENT CARD ========== */
-.field-loan-details,
-.field-personal-details{
-    background:#FFFFFF;
-    border-radius:0 0 16px 16px;
-    padding:24px;
-}
-
-/* ========== FIELD GRID ========== */
-.field-loan-details .field-wrapper,
-.field-personal-details .field-wrapper{
-    padding:12px 16px;
-    box-sizing:border-box;
-}
-
-/* ========== LABELS ========== */
-.field-loan-details label,
-.field-personal-details label{
-    font-size:12px;
-    color:#7A8BB5;
-    font-weight:500;
-}
-
-/* ========== VALUES ========== */
-.field-loan-details input,
-.field-personal-details input{
-    border:none;
-    background:transparent;
-    font-size:14px;
-    font-weight:600;
-    color:#111;
-    padding:0;
-}
-
-/* ========== VERTICAL DIVIDERS ========== */
-.field-loan-details .col-3,
-.field-personal-details .col-3{
-    border-left:2px solid #E6EEFF;
-}
-
-/* remove left border for first column in each row */
-.field-loan-details .col-3:nth-child(1),
-.field-personal-details .col-3:nth-child(1){
-    border-left:none;
-}
-
-/* ========== SCHEDULE LINK ========== */
-.field-schedule a{
-    color:#1E40D0;
-    font-weight:600;
-    text-decoration:none;
-}
-
-/* ========== FULL WIDTH ROWS ========== */
-.field-current-address,
-.field-residence-type{
-    border-top:1px dashed #E6EEFF;
-    margin-top:8px;
-}
-
-/* ========== CONFIRM BUTTON ========== */
-.field-confirm{
-    margin-top:32px;
-}
-
-.field-confirm button{
-    background:#A5B9F7;
-    color:#fff;
-    border:none;
-    padding:14px 44px;
-    border-radius:10px;
-    font-size:16px;
-    font-weight:600;
-    cursor:pointer;
-}
-
-/* Active button state */
-.field-confirm button:not(:disabled){
-    background:#1E40D0;
-}
-
-/* ========== RESPONSIVE ========== */
-@media (max-width: 992px){
-    .field-loan-details .col-3,
-    .field-personal-details .col-3{
-        width:100%;
-        border-left:none;
-        border-bottom:1px dashed #E6EEFF;
-    }
-
-    .field-current-address,
-    .field-residence-type{
-        border-top:none;
-    }
-
-    .accordion-legend{
-        font-size:15px;
-    }
-}
