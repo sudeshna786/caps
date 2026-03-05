@@ -1631,7 +1631,22 @@ body{
 
 #text-d44c62254b,
 .text-wrapper.field-loan-amount[data-id="textinput-e250dc6a5d"] {
-  background-clip: padding-box;   /* keeps the blue bar crisp at the edge */
+  background-clip: padding-box; 
 }
 
+.field-footer-fragment{
+    background:#0b1f4b;
+    color: #fff;
+    text-align:center;
+    padding:12px 0;
+    font-size: 13px;
+}
+
+.field-header{
+     background:#0b1f4b;
+        height:70px;
+        width:100%;
+        padding:0;
+        margin:0;
+}
 
