@@ -75,3 +75,24 @@ function validatePAN(pan) {
 
     return "VALID";
 }
+
+
+
+/**
+ * Calculate Equated Monthly Installment (EMI).
+ * @name calculateEMI Calculate EMI
+ * @param {number} principal - Principal
+ * @param {number} tenure - Number of months
+ * @param {number} annualRate - Annual interest rate
+ * @returns {number} - EMI per month
+ */
+function calculateEMI(principal, tenure, annualRate) {
+  if (annualRate === 0) return Math.ceil(principal / tenure);
+  const monthlyRate = annualRate / (12 * 100);
+  const R = 1 + monthlyRate;
+  const expo = R ** tenure;
+  const emi = Math.round((principal * monthlyRate * expo) / (expo - 1));
+ 
+  return emi;
+}
+ 
